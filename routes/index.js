@@ -6,4 +6,9 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express on Azure' });
 });
 
+router.get('/test', function(req, res){
+  res.json({
+    'msg':'test deploy'
+  })
+})
 module.exports = router;
