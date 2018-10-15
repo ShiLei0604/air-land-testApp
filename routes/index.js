@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 
 router.get('/test', function(req, res){
   res.json({
-    'msg':'test deploy'
+    'msg':'add config, async, nodemon'
   })
 })
 module.exports = router;
